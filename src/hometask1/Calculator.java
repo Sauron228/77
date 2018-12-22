@@ -4,6 +4,7 @@ public class Calculator {
     public static void main(String[] args) {
         int result = x + y;
         return result;
+
         public static int add ( int x, int y){
             return x + y;
         }
