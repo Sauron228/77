@@ -1,0 +1,251 @@
+Index: src/hometask1/Calculator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/hometask1/Calculator.java	(revision ecaeb9b63ae7e605a261d95e3e635c71a7e85fc5)
++++ src/hometask1/Calculator.java	(date 1545738553982)
+@@ -1,75 +1,90 @@
+-package hometask1;
+-
+-public class Calculator {
+-    public static void main(String[] args) {
+-        int result = x + y;
+-        return result;
+-
+-        public static int add ( int x, int y){
+-            return x + y;
+-        }
+-
+-        public static float add ( float x, float y){
+-            return x + y;
+-
+-        }
+-
+-        public static double add ( double x, double y){
+-            return x + y;
+-
+-        }
+-
+-        public static int sub (6, 3){//3
+-            return x - y;
+-        }
+-
+-        public static float sub (,float y){
+-            return x - y;
+-        }
+-
+-        public static double sub ( double x, double y){
+-            return x - y;
+-
+-        }
+-
+-
+-        public static int div ( int x, int y){
+-            return x / y;
+-        }
+-
+-        public static float div ( float x, float y){
+-            return x / y;
+-        }
+-
+-        public static double div ( double x, double y){
+-            return x / y;
+-
+-        }
+-
+-        public static int mul ( int x, int y){
+-            return x * y;
+-        }
+-
+-        public static float mul ( float x, float y){
+-            return x * y;
+-        }
+-
+-        public static double mul ( double x, double y){
+-            return x * y;
+-
+-        }
+-
+-        public static int main ( int x, int y){
+-            return x + y;
+-        }
+-
+-        public static double main ( double x, double y){
+-            return x + y;
+-        }
+-
+-        public static float main ( float x, float y){
+-            return x + y;
+-        }
+-    }
+-}
+-
++//package hometask1;
++//
++//public class Calculator {
++//    public static void main(String[] args) {
++//        int iResult = add(5, 7);
++//        System.out.println(iResult);
++//
++//        double dResult = add(5d, 7d);
++//        System.out.println(dResult);
++//
++//        int isResult = sub(100, 35);
++//        System.out.println(isResult);
++//
++//        double dsResult = sub(100d, 35d);
++//        System.out.println(dsResult);
++//
++//        int idResult = div(200, 50);
++//        System.out.println(idResult);
++//
++//        double ddResult = div(200d, 50d);
++//        System.out.println(ddResult);
++//
++//        int imResult = mul(33, 3);
++//        System.out.println(imResult);
++//
++//        double dmResult = mul(33d, 3d);
++//        System.out.println(dmResult);
++//    }}
++//
++//        public static int add (int x, int y ){
++//            int result = x + y;
++//            return result;
++//
++//        }
++//
++//        public static float add (float x , float y){
++//            float result = x + y;
++//            return result;
++//
++//        }
++//
++//        public static double add (double x , double y){
++//            double result = x + y;
++//            return result;
++//        }
++//
++//        public static int sub (int x, int y){
++//            return x - y;
++//        }
++//
++//        public static float sub (float x, float y){
++//            return x - y;
++//        }
++//
++//        public static double sub (double a, double y ){
++//            return x - y;
++//
++//        }
++//
++//
++//        public static int div (int x, int y){
++//            return x / y;
++//        }
++//
++//        public static float div (float x, float y){
++//            return x / y;
++//        }
++//
++//        public static double div (double x, double y){
++//            return x / y;
++//
++//        }
++//
++//        public static int mul (int x, int y){
++//            return x * y;
++//        }
++//
++//        public static float mul (float x , float y){
++//            return x * y;
++//        }
++//
++//        public static double mul (double x, double y){
++//            return x * y;
++//
++//        }
++//
++//
++//    }
++//}
++//
+Index: src/hometask2/Bit.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/hometask2/Bit.java	(date 1545740233812)
++++ src/hometask2/Bit.java	(date 1545740233812)
+@@ -0,0 +1,24 @@
++package hometask2;
++
++public class Bit {
++    public static void main(String[] args){
++        int a1 = 7;
++        int b1 = 8;
++        int c1 = 9;
++        System.out.println(a1 + b1 *(c1/2));
++        int a2 = 4;
++        int b2 = 5;
++        int x1 = 2;
++        System.out.println((Math.pow(a2 , x1)) + (Math.pow(b2 , x1)) % 2);
++        int a3 = 3;
++        int b3 = 2;
++        int c3 = 1;
++        System.out.println((a3 + b3)/12 *c3 %4 + b3) ;
++        int a4 = 9;
++        int b4 = 5;
++        int c4 = 7;
++        System.out.println((a4 - b4 * c4) / (a4 + b4) % c4);
++    }
++}
++
++
+Index: src/hometask1/Start.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/hometask1/Start.java	(revision ecaeb9b63ae7e605a261d95e3e635c71a7e85fc5)
++++ src/hometask1/Start.java	(date 1545738573178)
+@@ -1,18 +1,18 @@
+-package hometask1;
+-
+-public class Start {
+-    public static void main(String[] args) {
+-        testCalculator();
+-    }
+-
+-    public static void testCalculator() {
+-        int addResoult = Calculator.add(5, 7);//результат 12
+-        System.out.println(addResoult);
+-        int subResoult = Calculator.sub(100, 35);// результат 65
+-        System.out.println(subResoult);
+-        int mulResoult = Calculator.mul(33, 3);//результат 99
+-        System.out.println(mulResoult);
+-        int divResoult = Calculator.div(200, 50);//результат 4
+-        System.out.println(divResoult);
+-    }
+-}
+\ No newline at end of file
++//package hometask1;
++//
++//public class Start {
++//    public static void main(String[] args) {
++//        testCalculator();
++//    }
++//
++//    public static void testCalculator() {
++//        int addResoult = Calculator.add(5, 7);//результат 12
++//        System.out.println(addResoult);
++//        int subResoult = Calculator.sub(100, 35);// результат 65
++//        System.out.println(subResoult);
++//        int mulResoult = Calculator.mul(33, 3);//результат 99
++//        System.out.println(mulResoult);
++//        int divResoult = Calculator.div(200, 50);//результат 4
++//        System.out.println(divResoult);
++//    }
++//}
+\ No newline at end of file
