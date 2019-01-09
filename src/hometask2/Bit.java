@@ -19,6 +19,6 @@ public class Bit {
         int c4 = 7;
         System.out.println((a4 - b4 * c4) / (a4 + b4) % c4);
     }
-}
+}// пьян, исправить позже
 
 
