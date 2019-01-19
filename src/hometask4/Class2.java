@@ -6,7 +6,7 @@ public class Class2 {
         int length = 5;
         int sitePerimeter = width + width + length + length;
         int square = width * length;
-        System.out.println(sitePerimeter);
-        System.out.println(square);
+        System.out.println("Site perimeter = "+sitePerimeter);
+        System.out.println("Square = "+square);
     }
 }
