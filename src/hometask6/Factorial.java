@@ -2,12 +2,14 @@ package hometask6;
 
 public class Factorial {
     public static void main(String[] args) {
-        int x = 1;
-        int y = 1;
-        while (x <= 22) {
-            y = y * x;
-            x++;
+        System.out.println(factorial(3));
+
+    }
+    public static int factorial(int n) {
+        int result = 1;
+        for (int i = 1; i <= n; i++) {
+            result = result * i;
         }
-        System.out.println("22!=" + y);
+        return result;
     }
 }
