@@ -2,12 +2,22 @@ package hometask7;
 
 public class SumOfNumbers {
     public static void main(String[] args) {
-int i;
-        int result = 0;
-        for (i = 1; i <= 100; i++) {
-            result = result + i; }
-            System.out.println(result);
+        sumOfNumbers();
+
+    }
+
+    public static void sumOfNumbers() {
+
+        for (int i = 1; i <= 100; i = i + 2) {
+
+            System.out.println(i);
         }
     }
+}
+
+
+
+
+
 
 
